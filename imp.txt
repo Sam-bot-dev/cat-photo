@@ -54,7 +54,7 @@ basic structure
 <head></head>
 <body>
 <main>
-
+<header></header>
 
 <main>
 <footer></footer>
