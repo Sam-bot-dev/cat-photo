@@ -1,1 +1,63 @@
+(The <header> tag typically contains introductory content:Website logo or branding
+Primary navigation menus
+Page title or section heading
+Taglines or introductory tex)
+The <main> tag in HTML is used to identify the main content of a webpage .Placing essential content within <main> helps search engines prioritize this section during indexing.
 The <fieldset> tag is used to group related elements in a form. The <fieldset> tag draws a box around the related elements
+<a href=""></a>
+<img src="" alt="">
+
+list ;
+<ul>
+  <li>cat nip</li>
+  <li>laser pointers</li>
+  <li>lasagna</li>
+</ul>
+
+<ol>
+  <li>flea treatment</li>
+  <li>thunder</li>
+  <li>other cats</li>
+</ol>
+
+figure & caption
+<figure>
+  <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+    alt="Five cats looking around a field.">
+  <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+</figure>
+
+radio button 
+<fieldset>
+  <legend>Is your cat an indoor or outdoor cat?</legend>
+  <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+  <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+</fieldset>
+
+checkbox
+<fieldset>
+<legend>What's your cat's personality?</legend>
+<input id="loving" type="checkbox" name="personality" value="loving" checked> <label
+  for="loving">Loving</label>
+<input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+</fieldset>
+
+Textbox and submit button
+<input type="text" name="catphotourl" placeholder="cat photo URL" required>
+<button type="submit">Submit</button>
+
+basic structure
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head></head>
+<body>
+<main>
+
+
+<main>
+<footer></footer>
+
+</body>
+</html>
